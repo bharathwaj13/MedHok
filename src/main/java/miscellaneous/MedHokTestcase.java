@@ -23,6 +23,7 @@ public class MedHokTestcase {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.medhok.com/");
+		//Comment
 		boolean isLogoPresent=driver.findElementByXPath("//a[@class='logo']/img").isDisplayed();
 		if(isLogoPresent)
 			System.out.println("Pass - The logo is present");
