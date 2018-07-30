@@ -16,6 +16,7 @@ public class MedHokTestcase {
 		ChromeOptions op=new ChromeOptions();
 		op.addArguments("disable-infobars");
 		
+		
 		op.addArguments("--disable-notifications");
 		ChromeDriver driver=new ChromeDriver(op);
 		driver.manage().window().maximize();
